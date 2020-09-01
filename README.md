@@ -7,4 +7,4 @@
 * The password file contains multiple line and each line contain single password
 
 ## Question4
-* I assume the format of plate “statecode-XX-XXXX-X” means `statecode` as `two chacrater capital letter code` and `X` is `either capital letter or a digit`.
+* I assume the format of plate “statecode-XX-XXXX-X” means `statecode` as `two character capital letter code` and `X` is `either capital letter or a digit`.
