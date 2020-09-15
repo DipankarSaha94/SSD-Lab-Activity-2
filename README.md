@@ -1,10 +1,33 @@
-# SSD-Lab-Activity-2
+# Assignemnt 1
 
 ## Question1
-* The assumption for this question is that the file contains lines with single word
+### Point (d)
+* Here I am showing only content of directory and I am removing the 1st line containing `Total file count`.
+### Point (e)
+* Here I assume I am in <b>Home Directory</b> and then I will give the command.
+### Point (f)
+* Here I assume, I am in <b>Assignment1</b> directory and then I will give the command.
+
+## Question2
+* I have solved this by checking if the given input is present in bash command file or not.
 
 ## Question3
-* The password file contains multiple line and each line contain single password
+* Here I have used `cat ~/.bash_history` to get all the History command instead of `set -o history`.
 
 ## Question4
-* I assume the format of plate “statecode-XX-XXXX-X” means `statecode` as `two character capital letter code` and `X` is `either capital letter or a digit`.
+* Here I assume one input will be given at a time.
+
+## Question5
+* The solution I have given should work for Alphanumeric also. In the question only string was mentioned. And I assume one input will be given at a time
+
+## Question6
+* Here I assume one input will be given at a time.
+ 
+## Question8
+* Here if the input file conatins all the corect field then it will print `Yes` otherwise along with `No` it will print the error `field` also. And I assume one input will be given at a time
+
+## Question9
+* I assume one input will be given at a time.
+
+## Question10
+* Here I assume only integers will be given so I am printing `integers` for <b>Multiply(*),Add(+),Sub(-)</b> operation and `double` <b>Division(/)</b> operation. 
