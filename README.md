@@ -30,4 +30,4 @@
 * I assume one input will be given at a time.
 
 ## Question10
-* Here I assume only integers will be given so I am printing `integers` for <b>Multiply(*),Add(+),Sub(-)</b> operation and `double` <b>Division(/)</b> operation. 
+* Here I assume only integers will be given so I am printing `integers` for <b>Multiply(*),Add(+),Sub(-)</b> operation and `double` for <b>Division(/)</b> operation. 
