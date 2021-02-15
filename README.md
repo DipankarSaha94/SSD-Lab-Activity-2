@@ -1,33 +1,20 @@
-# Assignemnt 1
+# SNS Assignment2 - Implementation of Error Detection used in Computer Communications for Data Link Layer Security using Python
+- **Dipankar Saha - 2020201084**
 
-## Question1
-### Point (d)
-* Here I am showing only content of directory and I am removing the 1st line containing `Total file count`.
-### Point (e)
-* Here I assume I am in <b>Home Directory</b> and then I will give the command.
-### Point (f)
-* Here I assume, I am in <b>Assignment1</b> directory and then I will give the command.
+# Connection 
 
-## Question2
-* I have solved this by checking if the given input is present in bash command file or not.
+- **SERVER**: python3 server.py 127.0.0.1 <ANY_FREE_PORT>
+- **CLIENT**: python3 client.py <SAME_IP_AS_ABOVE> <SAME_PORT_AS_ABOVE> (multiple clients can be connected to server at the same time)
+  
+# Functionality :
+- User can type any message and press enter to send 
+- Message will be encrypted using cipher matrix 
+- The encrypted message along with the calculated CRC on original message will be send to server 
+- Server will decrypt the messaage and calculate CRC of the decrypted message 
+- If received CRC and calculated CRC matches then server will display the received message along with the sender details.
+- If not server will display received data is corrupt along with the sender details
+- Client with show error message and stops the sending process if it typed other than A-Z and space.
+- Client can type exit or exit() to stop. Server will show the client's status.
 
-## Question3
-* Here I have used `cat ~/.bash_history` to get all the History command instead of `set -o history`.
-
-## Question4
-* Here I assume one input will be given at a time.
-
-## Question5
-* The solution I have given should work for Alphanumeric also. In the question only string was mentioned. And I assume one input will be given at a time
-
-## Question6
-* Here I assume one input will be given at a time.
- 
-## Question8
-* Here if the input file conatins all the corect field then it will print `Yes` otherwise along with `No` it will print the error `field` also. And I assume one input will be given at a time
-
-## Question9
-* I assume one input will be given at a time.
-
-## Question10
-* Here I assume only integers will be given so I am printing `integers` for <b>Multiply(*),Add(+),Sub(-)</b> operation and `double` for <b>Division(/)</b> operation. 
+## NOTE: 
+Cipher matrix and inverse of cipher matrix is declared manually in client and server respectively.
