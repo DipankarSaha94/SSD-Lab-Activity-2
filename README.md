@@ -10,9 +10,9 @@
 ## Problem2
 ### Run command
 - python3 pysparkq2.py (number of CPU) (output filename)
-- it will output a csv file with 2 columns "country" as header
+- it will output a csv file with 1 column "country" as header
 
 ## Problem3
 ### Run command
 - python3 pysparkq3.py (number of CPU) (output filename)
-- it will output a csv file with 1 columns "country" as header
+- it will output a csv file with 1 column "country" as header
