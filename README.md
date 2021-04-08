@@ -1,18 +1,11 @@
-# DS Assignment5 - Spark 
-## Dipankar Saha - 2020201084
+# SNS ASSIGNMENT-5
 
+## GROUP-15 Members:
+- Suman Mitra (2020202018)
+- Aditya Mahajan (2020202017)
+- Shivam Puri (2020201096)
+- Dipankar Saha (2020201084)
 
-## Problem1
-### Run command
-- python3 pyspark_q1.py (number of CPU) (output filename)
-- it will output a csv file with 2 columns "country" and "count" as header
-
-## Problem2
-### Run command
-- python3 pyspark_q2.py (number of CPU) (output filename)
-- it will output a csv file with 1 column "country" as header
-
-## Problem3
-### Run command
-- python3 pyspark_q3.py (number of CPU) (output filename)
-- it will output a csv file with 1 column "country" as header
+### Report.pdf contains the IPYNB file 
+### Output file Submitted in AICrowd platform has been renamed as testLabel.csv
+### Individual contributions has been mentioned in group-contri.pdf
